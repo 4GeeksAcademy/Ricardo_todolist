@@ -31,7 +31,7 @@ const Home = () => {
                 <li>
                 {item}{" "}
                 <FontAwesomeIcon
-              className="trashIcon" 
+              className="trashIcon"
               onClick = {() => {
                 let newTodos= todos.filter(
                     (item, currentIndex) =>
